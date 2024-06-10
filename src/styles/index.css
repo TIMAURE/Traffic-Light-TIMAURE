@@ -1,12 +1,37 @@
 
-/* 
+.Palito{
+    background: black;
+    height: 60px;
+    width: 15px;
+    display: inline-block;
+    margin: 34px -99px 235px 164px;
+}
 
-    You can write your own styles here...
+.Contenedor{
+    background: black;
+    height: 235px;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.luz{
+   
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    margin: auto;
+    margin-top: 15px;
+}
+.roja{
+    background:red;
+}
+.amarilla{
+    background: yellow;
+}
+.verde{
+background: green;
+}
