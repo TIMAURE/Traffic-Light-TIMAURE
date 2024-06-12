@@ -1,4 +1,8 @@
 
+#app {
+    background: darkgoldenrod;
+    height: 500px;
+}
 .Palito{
     background: black;
     height: 60px;
@@ -34,4 +38,29 @@
 }
 .verde{
 background: green;
+}
+.brillo{
+    box-shadow: 0 0 30px rgb(210, 229, 238);
+  
+}
+.alternar-boton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: list-item;
+    position: absolute;
+    left: 106px;
+}
+    
+  
+  
+  .alternar-boton:hover {
+    background-color: rgb(107, 23, 23);
+    box-shadow: 0 0 30px rgb(210, 229, 238);
+  
 }
