@@ -1,9 +1,9 @@
 
-#app {
+#container {
     background: darkgoldenrod;
     height: 500px;
 }
-.Palito{
+.bar{
     background: black;
     height: 60px;
     width: 15px;
@@ -11,7 +11,7 @@
     margin: 34px -99px 235px 164px;
 }
 
-.Contenedor{
+.structure{
     background: black;
     height: 235px;
     width: 100px;
@@ -20,7 +20,7 @@
     margin-top: 45px;
     margin-left: 45px;
 }
-.luz{
+.light{
    
     height: 60px;
     width: 60px;
@@ -30,20 +30,20 @@
     margin: auto;
     margin-top: 15px;
 }
-.roja{
+.red{
     background:red;
 }
-.amarilla{
+.yellow{
     background: yellow;
 }
-.verde{
+.green{
 background: green;
 }
-.brillo{
+.glow{
     box-shadow: 0 0 30px rgb(210, 229, 238);
   
 }
-.alternar-boton {
+.toggle-button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: black;
@@ -59,7 +59,7 @@ background: green;
     
   
   
-  .alternar-boton:hover {
+  .toggle-button:hover {
     background-color: rgb(107, 23, 23);
     box-shadow: 0 0 30px rgb(210, 229, 238);
   
